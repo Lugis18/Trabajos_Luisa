@@ -35,6 +35,7 @@ public class HelloApplication extends Application {
         Label lblEdad = new Label("Edad");
         TextField tfEdad = new TextField();
         Label lblOpciones = new Label("Opciones");
+        
 
         ObservableList<String> opciones = FXCollections.observableArrayList("Estudiante", "Profesor", "Admin");
         ComboBox<String> cmbOpciones = new ComboBox<>(opciones);
